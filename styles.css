@@ -5,13 +5,35 @@
     color: rgb(149, 255, 0);
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
     letter-spacing: 1rem;
-    font-size: 4rem;
+    font-size: 8rem;
+    position: relative;
+    margin-left: -1000px;
 }
 
-h1 {
-    text-align: center;
+.heading-logo {
+    color: rgb(149, 255, 0);
+    font-size: 22rem;
+    position: absolute;
+}
+
+.nav-logo {
+    background-color: transparent;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.navbar, li {
+    padding-left: 10px;
+    font-size: 1.2rem;
 }
