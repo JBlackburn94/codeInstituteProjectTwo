@@ -8,17 +8,16 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1 {
     letter-spacing: 1rem;
     font-size: 8rem;
-    position: relative;
-    margin-left: -1000px;
+    margin-left: -1500px;
 }
 
 .heading-logo {
     color: rgb(149, 255, 0);
-    font-size: 22rem;
-    position: absolute;
+    font-size: 16rem;
+    margin-right: 2500px;
 }
 
 .nav-logo {
@@ -31,6 +30,7 @@ h1, h2, h3, h4 {
     list-style-type: none;
     display: inline-flex;
     margin-left: 10px;
+    position: fixed;
 }
 
 .navbar, li {

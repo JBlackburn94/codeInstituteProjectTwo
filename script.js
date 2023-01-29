@@ -4,34 +4,24 @@ var heading = anime.timeline({
 })
 
 heading.add({
-    targets: '#nav-section',
+    targets: '#nav-section, .heading-logo',
     opacity: 0
 })
 .add({
     targets: '.one',
-    translateX: 1100,
-    delay: anime.stagger(100)
-})
-.add({
-    targets: '.two',
-    translateX: 1200,
-    delay: anime.stagger(100)
-})
-.add({
-    targets: '.three',
-    translateX: 1300,
+    translateX: 1625,
     delay: anime.stagger(100)
 })
 .add({
     targets: '.heading-logo',
-    translateY: -450,
-    translateX: 1000,
+    opacity: 100,
+    translateX: 575,
     rotate: 1080
 })
 .add({
     targets: '.heading-div',
     opacity: 0,
-    duration: 2000
+    duration: 3500
 })
 .add({
     targets: '#nav-section',
